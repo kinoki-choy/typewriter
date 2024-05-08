@@ -1,0 +1,27 @@
+model = 'gpt-3.5-turbo'
+# model = 'gemma'
+# model = 'mistral:7b'
+# model = 'llama2:7b'
+
+[hotkeys]
+correction = '<cmd>+<alt>'
+translation = '<cmd>+<ctrl>'
+
+[templates]
+correction = """
+        Fix all typo, casing, grammar and punctuation errors in this text while preserving line breaks. If there is Singlish, $singlish_prompt. The entire response/output is going to consist of a single JSON object {} and you will NOT wrap it within JSON md markers. The JSON object should consists of two keys:
+        - original
+        - correction
+        Remember, do not return a preamble.
+
+        $text
+        """
+translation = """
+        Fix all typo, casing, grammar and punctuation errors in this text while preserving line breaks. If there is Singlish, $singlish_prompt. Finally, translate this text from English to Traditional Chinese. The entire response/output is going to consist of a single JSON object {} and you will NOT wrap it within JSON md markers. The JSON object should consists of two keys:
+        - original
+        - correction
+        - translation
+        Remember, do not return a preamble.
+
+        $text
+        """
