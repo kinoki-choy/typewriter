@@ -8,11 +8,11 @@ With the help of LLM, you can do these as you type
 
 **Demo**
 
-https://github.com/kinoki-choy/typewriter/assets/128534974/7b58a7e8-5b47-4178-9bb4-50b587dc0ddc
+https://github.com/kinoki-choy/typewriter/assets/128534974/0a29cb6f-6c1f-4eb8-8ff0-925f46a103a0
 
 Singlish mode off
 
-https://github.com/kinoki-choy/typewriter/assets/128534974/5e826670-a73b-4aee-b27d-f50f31b32e20
+https://github.com/kinoki-choy/typewriter/assets/128534974/20e0af0e-4e90-4bb5-b603-5c02694a8654
 
 **Installation**
 ```
