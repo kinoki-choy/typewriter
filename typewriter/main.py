@@ -22,7 +22,7 @@ config = tomllib.load(open(config_filepath, 'rb'))
 def typewriter(singlish:bool):
     singlish = singlish
     client = OpenAI(
-        base_url='http://localhost:11434/v1' if config['model'] != 'gpt-3.5-turbo' else None,
+        base_url='http://localhost:11434/v1' if 'gpt' not in config['model'] else None,
         api_key=os.environ.get('OPENAI_API_KEY')
     )
 
