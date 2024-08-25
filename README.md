@@ -16,15 +16,17 @@ https://github.com/kinoki-choy/typewriter/assets/128534974/20e0af0e-4e90-4bb5-b6
 
 **Installation**
 ```
-poetry install
+# Create virtual environment
+uv venv
+
+# Activate virtual environment
+source .venv/bin/activate
+
+# Install dependencies
+uv sync
 ```
 
 **Usage**
-
-```
-# Activate virtual environment
-poetry shell
-```
 ```
 # Run it as per normal with stdout feedback
 python typewriter/main.py
