@@ -1,7 +1,7 @@
 [project]
 name = "typewriter"
 version = "0.1.0"
-description = "Add your description here"
+description = "Typewriter on steroids. Hotkeys binding for correction and translation with the help of LLM"
 readme = "README.md"
 requires-python = ">=3.12"
 dependencies = [
